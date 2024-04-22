@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		BFBA90AE2B95AC87007BE31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90AD2B95AC87007BE31D /* AppDelegate.swift */; };
 		BFBA90B02B95AC87007BE31D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90AF2B95AC87007BE31D /* SceneDelegate.swift */; };
-		BFBA90B22B95AC87007BE31D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90B12B95AC87007BE31D /* ViewController.swift */; };
-		BFBA90B52B95AC87007BE31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA90B32B95AC87007BE31D /* Main.storyboard */; };
 		BFBA90B72B95AC89007BE31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBA90B62B95AC89007BE31D /* Assets.xcassets */; };
 		BFBA90BA2B95AC89007BE31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA90B82B95AC89007BE31D /* LaunchScreen.storyboard */; };
+		BFBA90C42B95ACC2007BE31D /* Ftux.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBA90C32B95ACC2007BE31D /* Ftux.storyboard */; };
+		BFBA90C62B95ACE8007BE31D /* FtuxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90C52B95ACE8007BE31D /* FtuxViewController.swift */; };
+		BFBA90CA2B96C9F9007BE31D /* FtuxProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90C92B96C9F9007BE31D /* FtuxProvider.swift */; };
+		BFBA90CC2B96CA41007BE31D /* FtuxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90CB2B96CA41007BE31D /* FtuxModel.swift */; };
+		BFBA90CE2B96D082007BE31D /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA90CD2B96D082007BE31D /* FtuxViewCell.swift */; };
+		BFBB2E9C2BCD6C2800F1215C /* FDObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB2E9B2BCD6C2800F1215C /* FDObservable.swift */; };
+		BFBB2E9E2BCD743B00F1215C /* FtuxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB2E9D2BCD743B00F1215C /* FtuxViewModel.swift */; };
+		BFBB2EA12BCD92D000F1215C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBB2EA02BCD92D000F1215C /* Login.storyboard */; };
+		BFBB2EA32BCD92F900F1215C /* LoginLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB2EA22BCD92F900F1215C /* LoginLandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFBA90AA2B95AC87007BE31D /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBA90AD2B95AC87007BE31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBA90AF2B95AC87007BE31D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFBA90B12B95AC87007BE31D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFBA90B42B95AC87007BE31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFBA90B62B95AC89007BE31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBA90B92B95AC89007BE31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBA90BB2B95AC89007BE31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBA90C32B95ACC2007BE31D /* Ftux.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ftux.storyboard; sourceTree = "<group>"; };
+		BFBA90C52B95ACE8007BE31D /* FtuxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewController.swift; sourceTree = "<group>"; };
+		BFBA90C92B96C9F9007BE31D /* FtuxProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxProvider.swift; sourceTree = "<group>"; };
+		BFBA90CB2B96CA41007BE31D /* FtuxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxModel.swift; sourceTree = "<group>"; };
+		BFBA90CD2B96D082007BE31D /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
+		BFBB2E9B2BCD6C2800F1215C /* FDObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDObservable.swift; sourceTree = "<group>"; };
+		BFBB2E9D2BCD743B00F1215C /* FtuxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewModel.swift; sourceTree = "<group>"; };
+		BFBB2EA02BCD92D000F1215C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		BFBB2EA22BCD92F900F1215C /* LoginLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		BFBA90AC2B95AC87007BE31D /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				BFBA90C82B96C9C9007BE31D /* Providers */,
+				BFBA90C72B96C9C1007BE31D /* Models */,
+				BFBA90C12B95ACAF007BE31D /* Module */,
 				BFBA90AD2B95AC87007BE31D /* AppDelegate.swift */,
 				BFBA90AF2B95AC87007BE31D /* SceneDelegate.swift */,
-				BFBA90B12B95AC87007BE31D /* ViewController.swift */,
-				BFBA90B32B95AC87007BE31D /* Main.storyboard */,
 				BFBA90B62B95AC89007BE31D /* Assets.xcassets */,
 				BFBA90B82B95AC89007BE31D /* LaunchScreen.storyboard */,
 				BFBA90BB2B95AC89007BE31D /* Info.plist */,
 			);
 			path = FoodDelivery;
+			sourceTree = "<group>";
+		};
+		BFBA90C12B95ACAF007BE31D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB2E9F2BCD92BD00F1215C /* Login */,
+				BFBA90C22B95ACB4007BE31D /* Ftux */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BFBA90C22B95ACB4007BE31D /* Ftux */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA90C32B95ACC2007BE31D /* Ftux.storyboard */,
+				BFBA90C52B95ACE8007BE31D /* FtuxViewController.swift */,
+				BFBA90CD2B96D082007BE31D /* FtuxViewCell.swift */,
+				BFBB2E9D2BCD743B00F1215C /* FtuxViewModel.swift */,
+			);
+			path = Ftux;
+			sourceTree = "<group>";
+		};
+		BFBA90C72B96C9C1007BE31D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA90CB2B96CA41007BE31D /* FtuxModel.swift */,
+				BFBB2E9B2BCD6C2800F1215C /* FDObservable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFBA90C82B96C9C9007BE31D /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA90C92B96C9F9007BE31D /* FtuxProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		BFBB2E9F2BCD92BD00F1215C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB2EA02BCD92D000F1215C /* Login.storyboard */,
+				BFBB2EA22BCD92F900F1215C /* LoginLandingViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBB2EA12BCD92D000F1215C /* Login.storyboard in Resources */,
 				BFBA90BA2B95AC89007BE31D /* LaunchScreen.storyboard in Resources */,
+				BFBA90C42B95ACC2007BE31D /* Ftux.storyboard in Resources */,
 				BFBA90B72B95AC89007BE31D /* Assets.xcassets in Resources */,
-				BFBA90B52B95AC87007BE31D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBA90B22B95AC87007BE31D /* ViewController.swift in Sources */,
+				BFBA90C62B95ACE8007BE31D /* FtuxViewController.swift in Sources */,
+				BFBB2E9E2BCD743B00F1215C /* FtuxViewModel.swift in Sources */,
+				BFBB2E9C2BCD6C2800F1215C /* FDObservable.swift in Sources */,
+				BFBA90CE2B96D082007BE31D /* FtuxViewCell.swift in Sources */,
 				BFBA90AE2B95AC87007BE31D /* AppDelegate.swift in Sources */,
 				BFBA90B02B95AC87007BE31D /* SceneDelegate.swift in Sources */,
+				BFBA90CA2B96C9F9007BE31D /* FtuxProvider.swift in Sources */,
+				BFBB2EA32BCD92F900F1215C /* LoginLandingViewController.swift in Sources */,
+				BFBA90CC2B96CA41007BE31D /* FtuxModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFBA90B32B95AC87007BE31D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBA90B42B95AC87007BE31D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFBA90B82B95AC89007BE31D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,8 +356,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Ftux;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,8 +384,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Ftux;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

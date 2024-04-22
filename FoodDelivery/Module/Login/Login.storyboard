@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Landing View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LoginLanding" id="Y6W-OH-hqX" customClass="LoginLandingViewController" customModule="FoodDelivery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_login" translatesAutoresizingMaskIntoConstraints="NO" id="EJb-pZ-DAW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="522"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EJb-pZ-DAW" secondAttribute="height" multiplier="125:166" id="xTg-fZ-So3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disvover the best foods from over 1,000 restaurants and fast delivery to your doorstep" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9D6-qf-EF1">
+                                <rect key="frame" x="36" y="558" width="321" height="31.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVR-PD-w8y">
+                                <rect key="frame" x="36" y="726" width="321" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Foi-PG-g9o"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Create an Account">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOJ-XH-xlF">
+                                <rect key="frame" x="36" y="650" width="321" height="56"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="mre-Mm-Wl7"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EJb-pZ-DAW" secondAttribute="trailing" id="2RY-z5-DdE"/>
+                            <constraint firstItem="EJb-pZ-DAW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="5qJ-B2-5iP"/>
+                            <constraint firstItem="BOJ-XH-xlF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="FSU-zp-psg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EJb-pZ-DAW" secondAttribute="trailing" id="Nbi-Mb-VHX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BOJ-XH-xlF" secondAttribute="trailing" constant="36" id="Osb-Dt-aLP"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="yVR-PD-w8y" secondAttribute="bottom" constant="36" id="Sdo-QX-LXg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yVR-PD-w8y" secondAttribute="trailing" constant="36" id="VEC-dp-qhh"/>
+                            <constraint firstItem="9D6-qf-EF1" firstAttribute="top" secondItem="EJb-pZ-DAW" secondAttribute="bottom" constant="36" id="WTU-gY-zLF"/>
+                            <constraint firstItem="9D6-qf-EF1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="Zhc-4g-GTQ"/>
+                            <constraint firstItem="yVR-PD-w8y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="fGw-A9-ou1"/>
+                            <constraint firstItem="EJb-pZ-DAW" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="kT8-DF-gTy"/>
+                            <constraint firstItem="yVR-PD-w8y" firstAttribute="top" secondItem="BOJ-XH-xlF" secondAttribute="bottom" constant="20" id="mIy-tm-qx2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9D6-qf-EF1" secondAttribute="trailing" constant="36" id="yxH-q2-pyt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.343511450381679" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_login" width="375" height="498"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
